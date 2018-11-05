@@ -1,0 +1,11 @@
+// [ FAKE GROUP ]
+group Main
+	source https://www.nuget.org/api/v2
+	nuget docfx
+	nuget docfx.console
+	nuget FAKE prerelease
+	nuget Fake.Documentation.DocFx
+nuget netstandard.library 2.0.2
+	nuget Fake.Core prerelease
+	nuget Fake.Core.Target prerelease
+	nuget Fake.DotNet prerelease
